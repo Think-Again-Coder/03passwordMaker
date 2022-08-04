@@ -8,6 +8,7 @@ var specialCharacters = ['@', '%', '+', '\\', '/', "'", '!', '#', '$', '^', '?',
 
 // var calculations -- this is used to combine all the arrays for an answer. 
 var calculations = [];
+//Use the variable above to include all of the arrays and then UserChoice below to create the proper length of password. 
 var userChoice = [];
 
 // This variable will ask to include special characters
@@ -22,7 +23,7 @@ var inclLittleLetters = confirm("Click OK to include lowercase characters.");
 // This variable asks about uppercase characters
 var inclBigLetters = confirm("Click OK to include uppercase characters.");
 
-
+//How do I get the function to pick the right amount of random letter/numbers/characters
 
 
 // This function is required to make the existing code work and will control the process of generating a password.
@@ -30,7 +31,7 @@ function generatePassword(i) {
   for (var i = 0; i <= length; i++);
   // var userChoice = ([]);
   prompt("Please enter a number between 8 and 33 characters in length.");
-
+//variables below pick a random character from the arrays above
   var bigLetters = bigAlpha[Math.floor(Math.random()*bigAlpha.length)];
     console.log(bigLetters);
 
