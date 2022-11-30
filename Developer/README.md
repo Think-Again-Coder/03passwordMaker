@@ -11,11 +11,11 @@ This project was intended to help the user generate a random password by asking 
 The Password Maker was built with vanilla javascript, CSS, and HTML. It includes arrays for the characters that may be chosen. The code includes examples of if and else statements. A variety of methods are being used to organize the data for a unique password built on criteria chosen by the user. 
 
 The Image here represents an example of a randomly generated password. 
-![New Password Generated](images/placeholder.png)
+![New Password Generated](/Assets/Screenshot-pwgeneratorConsolelog%20.png)
 
 ### Summary: 
 
-This is a great tool for anybody and creating it was challenging to say the least. Its customization is what makes it work. The various functions handle the randomization.
+This is a great tool for anybody in need of a quick but secure password. Its customization is what makes it work. The various functions handle the randomization.
 
 
 --- 

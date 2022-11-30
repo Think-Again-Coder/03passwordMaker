@@ -23,14 +23,13 @@ var inclLittleLetters = confirm("Click OK to include lowercase characters.");
 // This variable asks about uppercase characters
 var inclBigLetters = confirm("Click OK to include uppercase characters.");
 
-//How do I get the function to pick the right amount of random letter/numbers/characters
-
 
 // This function is required to make the existing code work and will control the process of generating a password.
 function generatePassword(i) {
   for (var i = 0; i <= length; i++);
-  // var userChoice = ([]);
+  
   prompt("Please enter a number between 8 and 33 characters in length.");
+
 //variables below pick a random character from the arrays above
   var bigLetters = bigAlpha[Math.floor(Math.random()*bigAlpha.length)];
     console.log(bigLetters);
@@ -53,7 +52,7 @@ function generatePassword(i) {
     alert("Password must be less than 33 characters long. Please try again.");
     return null;
   }
-
+  return result[i + length].join('');
 };
 
 
