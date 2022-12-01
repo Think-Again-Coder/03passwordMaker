@@ -5,7 +5,7 @@
 
 ### Introduction: 
 
-This project was intended to help the user generate a random password by asking a series of questions about the kind of password they require. The user is asked about uppercase, lowercase, and special characters along with a specific length between 8 and 33 characters long. 
+This project was intended to help the user generate a random password by asking a series of questions about the kind of password they require. The user is asked about uppercase, lowercase, and special characters along with a specific length between 8 and 128 characters long. 
 ### Highlights:
 
 The Password Maker was built with vanilla javascript, CSS, and HTML. It includes arrays for the characters that may be chosen. The code includes examples of if and else statements. A variety of methods are being used to organize the data for a unique password built on criteria chosen by the user. 

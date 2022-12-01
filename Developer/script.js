@@ -1,5 +1,4 @@
-
-
+//
 // Added additional variables to complete the program and makeup a password with random numbers and letters.
 var bigAlpha = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N","O", "P", "Q", "R", "S", "T", "U","V", "W", "X", "Y", "Z"];
 var lilAlpha = ["a", "b", "c", "d", "e", "f", "g","h", "i", "j", "k", "l", "m", "n","o", "p", "q", "r", "s", "t", "u","v", "w", "x", "y", "z"];
@@ -52,10 +51,8 @@ function generatePassword(i) {
     alert("Password must be less than 33 characters long. Please try again.");
     return null;
   }
-  return result[i + length].join('');
+
 };
-
-
 
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
